@@ -1,0 +1,121 @@
+/* =================== TIPOGRAFÍAS =================== */
+
+/* 1) Títulos: alternativa libre a "Block" */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&display=swap');
+/* 2) Texto: Geomanist desde archivos locales (OTF)
+   Coloca los OTF en: styles/fonts/
+   Al menos: Regular, Medium, Bold, Black (e Italic si usas) */
+@font-face {
+  font-family: "Geomanist";
+  src: url("fonts/Geomanist-Regular.otf") format("opentype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Geomanist";
+  src: url("fonts/Geomanist-Italic.otf") format("opentype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Geomanist";
+  src: url("fonts/Geomanist-Medium.otf") format("opentype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Geomanist";
+  src: url("fonts/Geomanist-Bold.otf") format("opentype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Geomanist";
+  src: url("fonts/Geomanist-Black.otf") format("opentype");
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+
+/* 3) Aplicación tipográfica */
+:root{
+  --brand-title: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --brand-text:  "Geomanist", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body { font-family: var(--brand-text); font-weight: 400; }
+h1, h2, h3, .navbar-brand, .navbar-title { 
+  font-family: var(--brand-title); 
+  font-weight: 700; 
+  letter-spacing: .2px; 
+}
+
+/* =================== COLORES DE TÍTULOS =================== */
+h1, h2 {
+  color: #cc6900; /* naranja más oscuro */
+}
+h3, h4 {
+  color: #245f94; /* azul más oscuro */
+}
+h5, h6 {
+  color: #333333; /* gris profundo para subtítulos menores */
+}
+/* =================== HERO (index) =================== */
+/* Portada con capas: logo, engranes, velo sutil y foto de fondo */
+.quarto-title-block .quarto-title-banner {
+  min-height: 80vh;
+  background-image:
+    url("../img/LOGO_RETOS_final_blanco.png"),  /* 1) LOGO */
+    url("../img/Mesa de trabajo6.png"),         /* 2) ENGRANES (usa el nombre exacto de tu archivo) */
+    linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)), /* 3) velo */
+    url("../img/elliott-ledain-ae9_48OVIgQ-unsplash.jpg");  /* 4) FOTO */
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+
+  /* Logo pegado al borde derecho con 2% de respiro y a 62% de alto */
+  background-position:
+    right 2% top 62%,   /* 1) LOGO */
+    14% 18%,            /* 2) ENGRANES */
+    center,             /* 3) VELO */
+    center;             /* 4) FOTO */
+
+  background-size:
+    min(34vw, 420px),   /* LOGO */
+    min(24vw, 280px),   /* ENGRANES */
+    cover,              /* VELO */
+    cover;              /* FOTO */
+}
+
+/* Oculta el H1 del banner (evita duplicar título/overlay) */
+.quarto-title-block .quarto-title-banner .quarto-title {
+  display: none !important;
+}
+
+/* =================== BOTONES Y DETALLES =================== */
+a { text-underline-offset: 2px; }
+.btn-cta { background: #FF8300; border: 0; color: #1b1b1b; }
+.btn-cta:hover { filter: brightness(.96); }
+
+/* =================== RESPONSIVO =================== */
+@media (max-width: 768px) {
+  .quarto-title-block .quarto-title-banner {
+    min-height: 70vh;
+    background-position: center 60%, 8% 12%, center, center;
+    background-size: min(68vw, 400px), min(30vw, 200px), cover, cover;
+    background-color: transparent;
+  }
+}
+
+/* Footer institucional */
+.quarto-page-footer {
+  background: #f6f7f8;      /* gris muy suave */
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.quarto-page-footer img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Quita el espacio debajo del banner solo en la home */
+.home .quarto-title-block { margin-bottom: 0; }
+.home main.content { padding-top: 0; padding-bottom: 0; min-height: 0; }
+
+/* Por si algún tema aplica fondo al banner o al contenedor */
+.home .quarto-title-block .quarto-title-banner { background-color: transparent; }

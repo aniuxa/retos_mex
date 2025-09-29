@@ -1,0 +1,25 @@
+/* Paleta base (del manual) */
+$primary:   #245f94; // azul más oscuro que #2A7FC3
+$secondary: #7a7a7c; // gris un poco más fuerte que #929293
+$dark:      #222222; // gris profundo
+$warning:   #cc6900; // naranja más oscuro que #FF8300
+
+$body-color: $dark;
+$body-bg: #ffffff;
+
+/* Links */
+$link-color: $primary;
+$link-hover-color: darken($primary, 8%);
+
+/* Navbar */
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: rgba(#fff, .9);
+$navbar-dark-brand-color: #fff;
+$navbar-bg: $primary;
+
+/* Botones */
+$btn-border-radius: .5rem;
+$btn-padding-y: .55rem;
+$btn-padding-x: 1rem;
+
+@import "bootstrap/scss/bootstrap";

@@ -1,0 +1,41 @@
+.quarto-title-block .quarto-title-banner {
+  min-height: 80vh;
+  background-image:
+    url("img/LOGO_RETOS_final_blanco.png"),
+    url("img/Mesa de trabajo6.png"),
+    linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.12)),
+    url("img/elliott-ledain-ae9_48OVIgQ-unsplash.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+
+  /* ✅ Logo pegado al borde derecho, con 2% de respiro y a 62% de alto */
+  background-position:
+    right 2% top 62%,   /* 1) LOGO */
+    14% 18%,            /* 2) engranes */
+    center,             /* 3) velo */
+    center;             /* 4) foto */
+
+  background-size:
+    min(34vw, 420px),   /* logo (ajústalo si lo quieres un pelín más chico) */
+    min(24vw, 280px),   /* engranes */
+    cover,
+    cover;
+}
+
+/* Oculta el h1 del banner */
+.quarto-title-block .quarto-title-banner .quarto-title { display:none !important; }
+
+@media (max-width: 768px) {
+  .quarto-title-block .quarto-title-banner {
+    min-height: 70vh;
+    background-position:
+      center 60%,   /* logo centrado en móvil */
+      8% 12%,
+      center,
+      center;
+    background-size:
+      min(68vw, 400px),
+      min(30vw, 200px),
+      cover,
+      cover;
+  }
+}

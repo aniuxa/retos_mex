@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: "docs"
+  
+website:
+  title: "RETOS"
+  navbar:
+    background: primary
+    left:
+      - href: about.qmd
+        text: Sobre el proyecto
+      - href: Participantes.qmd
+        text: Participantes
+      - href: https://aniuxa.github.io/renoe/
+        text: Paquete renoe    
+      - href: https://aniuxa.shinyapps.io/shiny_enoe/
+        text: Descarga paneles
+  page-footer:
+    center: |
+      <img src="img/LOGO_RETOS_final.png" alt="Logo Retos" style="height:60px; margin-bottom:0.5rem;"><br>
+      Proyecto financiado por la **DGAPA–UNAM**, Programa de Apoyo a Proyectos de Investigación e Innovación Tecnológica (PAPIIT IN305925).        
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/theme.scss   # variables de marca
+    css: styles/site.css    # reglas finas (tipos, navbar, etc.)
+    toc: true
+    toc-title: "En esta página"
+
