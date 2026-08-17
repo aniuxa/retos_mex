@@ -1,0 +1,35 @@
+---
+title: "Avances de investigación"
+toc: true
+page-layout: article
+---
+
+Esta sección reúne publicaciones, desarrollos de datos y herramientas producidos en el marco del proyecto **PAPIIT IN305925: Retos de la inserción laboral en México**.
+
+## Publicaciones
+
+### Trayectorias iniciales de trabajo en jóvenes profesionistas en México
+
+**Ana Escoto Castillo (2026).** “Trayectorias iniciales de trabajo en jóvenes profesionistas en México”. *Revista Mexicana de Investigación Educativa*, 31(109). Publicado el 6 de abril de 2026.
+
+El artículo reconstruye trayectorias laborales de cinco trimestres consecutivos para jóvenes de 15 a 29 años que no tenían experiencia laboral en su primera entrevista. Utiliza los paneles de la Encuesta Nacional de Ocupación y Empleo entre 2005 y 2024 y analiza diferencias por género, escolaridad, región y contexto familiar.
+
+[Consultar el artículo](https://ojs.rmie.mx/index.php/rmie/article/view/1896){.btn .btn-primary target="_blank"}
+
+[Descargar el PDF](https://ojs.rmie.mx/index.php/rmie/article/view/1896/2184){target="_blank"}
+
+## Infraestructura de datos
+
+-   Procesamiento armonizado de **83 trimestres** de la ENOE, desde 2005 hasta 2025.
+-   Construcción de **80 paneles longitudinales** de hasta cinco ondas.
+-   Clasificación reproducible de trayectorias de inserción, entrada y salida de la ocupación, contratación temporal, ajuste educativo, condiciones laborales y situaciones de estudio y trabajo.
+-   Distribución de paneles en formatos Parquet, RDS y Stata.
+
+## Herramientas
+
+-   [**renoe**](https://aniuxa.github.io/renoe/): paquete de R para descargar, procesar y armonizar la ENOE.
+-   [**Consulta y descarga de paneles**](https://aniuxa.shinyapps.io/shiny_enoe/): aplicación para explorar los productos longitudinales del proyecto.
+
+## Actualización
+
+Última actualización: agosto de 2026.

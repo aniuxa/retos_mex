@@ -12,7 +12,7 @@ page-layout: article
 
 ## Académicas y académicos UNAM
 
--   **Enrique Mauricio Padron Innamorato** — Instituto de Investigaciones Jurídicas, UNAM\
+-   **Enrique Mauricio Padrón Innamorato** — Instituto de Investigaciones Jurídicas, UNAM\
 -   **Isalia Nava Bolaños** — Instituto de Investigaciones Económicas, UNAM\
 -   **Mercedes Pedrero y Nieto** — Centro Regional de Investigaciones Multidisciplinarias, UNAM
 
@@ -39,11 +39,13 @@ page-layout: article
 ## Alumnado UNAM
 
 -   **Alma Delfina Ojeda Santiago** — Facultad de Derecho, UNAM\
--   **Ángel Corral Violante** — Facultad de Ciencias Políticas y Sociales, UNAM\
+-   **Eugenia López Cruz** — Facultad de Ciencias Políticas y Sociales, UNAM\
+-   **Gabriela Corral Violante** — Facultad de Ciencias Políticas y Sociales, UNAM\
+-   **Gonzalo Esteban Negreros Amaya** — Instituto de Investigaciones Económicas, UNAM\
+-   **Litzy Jhoana Terrazas Guevara** — Facultad de Estudios Superiores Acatlán, UNAM\
 -   **Óscar Uriel Valdés Bautista** — Facultad de Ciencias Políticas y Sociales, UNAM\
 -   **Rubén Ramírez Martínez** — Facultad de Ciencias, UNAM\
--   **Zyanya Itzel Puga Sánchez** — Facultad de Ciencias Políticas y Sociales, UNAM\
--   **Alfredo Cañedo Maldonado** - Facultad de Estudios Superiores Acatlán, UNAM
+-   **Zyanya Itzel Puga Sánchez** — Facultad de Ciencias Políticas y Sociales, UNAM
 ------------------------------------------------------------------------
 
 ## Alumnado externo

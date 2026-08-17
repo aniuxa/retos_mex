@@ -11,7 +11,7 @@
     "href": "Participantes.html#académicas-y-académicos-unam",
     "title": "Participantes",
     "section": "Académicas y académicos UNAM",
-    "text": "Académicas y académicos UNAM\n\nEnrique Mauricio Padron Innamorato — Instituto de Investigaciones Jurídicas, UNAM\n\nIsalia Nava Bolaños — Instituto de Investigaciones Económicas, UNAM\n\nMercedes Pedrero y Nieto — Centro Regional de Investigaciones Multidisciplinarias, UNAM"
+    "text": "Académicas y académicos UNAM\n\nEnrique Mauricio Padrón Innamorato — Instituto de Investigaciones Jurídicas, UNAM\n\nIsalia Nava Bolaños — Instituto de Investigaciones Económicas, UNAM\n\nMercedes Pedrero y Nieto — Centro Regional de Investigaciones Multidisciplinarias, UNAM"
   },
   {
     "objectID": "Participantes.html#académicas-y-académicos-externos",
@@ -32,7 +32,7 @@
     "href": "Participantes.html#alumnado-unam",
     "title": "Participantes",
     "section": "Alumnado UNAM",
-    "text": "Alumnado UNAM\n\nAlma Delfina Ojeda Santiago — Facultad de Derecho, UNAM\n\nÁngel Corral Violante — Facultad de Ciencias Políticas y Sociales, UNAM\n\nÓscar Uriel Valdés Bautista — Facultad de Ciencias Políticas y Sociales, UNAM\n\nRubén Ramírez Martínez — Facultad de Ciencias, UNAM\n\nZyanya Itzel Puga Sánchez — Facultad de Ciencias Políticas y Sociales, UNAM\n\nAlfredo Cañedo Maldonado - Facultad de Estudios Superiores Acatlán, UNAM"
+    "text": "Alumnado UNAM\n\nAlma Delfina Ojeda Santiago — Facultad de Derecho, UNAM\n\nEugenia López Cruz — Facultad de Ciencias Políticas y Sociales, UNAM\n\nGabriela Corral Violante — Facultad de Ciencias Políticas y Sociales, UNAM\n\nGonzalo Esteban Negreros Amaya — Instituto de Investigaciones Económicas, UNAM\n\nLitzy Jhoana Terrazas Guevara — Facultad de Estudios Superiores Acatlán, UNAM\n\nÓscar Uriel Valdés Bautista — Facultad de Ciencias Políticas y Sociales, UNAM\n\nRubén Ramírez Martínez — Facultad de Ciencias, UNAM\n\nZyanya Itzel Puga Sánchez — Facultad de Ciencias Políticas y Sociales, UNAM"
   },
   {
     "objectID": "Participantes.html#alumnado-externo",
@@ -60,28 +60,28 @@
     "href": "about.html",
     "title": "Sobre el proyecto",
     "section": "",
-    "text": "El proyecto PAPIIT IN305925 tiene como propósito estudiar cómo han cambiado las trayectorias laborales en México durante el periodo 2005–2025. Nos enfocamos en identificar los principales retos de la inserción laboral en un mercado caracterizado por la heterogeneidad y la desigualdad"
+    "text": "El proyecto PAPIIT IN305925 tiene como propósito estudiar cómo han cambiado las trayectorias laborales en México durante el periodo 2005–2025. Nos enfocamos en identificar los principales retos de la inserción laboral en un mercado caracterizado por la heterogeneidad y la desigualdad."
   },
   {
     "objectID": "about.html#objetivo-general",
     "href": "about.html#objetivo-general",
     "title": "Sobre el proyecto",
     "section": "Objetivo general",
-    "text": "Objetivo general\nDeterminar los cambios en las trayectorias del mercado laboral mexicano durante el periodo 2005–2025, considerando las desventajas de grupos poblacionales específicos —mujeres, jóvenes, personas trabajadoras rurales y adultos mayores— y analizando cuatro dimensiones clave: inestabilidad, desajuste educativo, trabajo no remunerado y heterogeneidad de ocupaciones ## Objetivos específicos\n\nAnalizar la evolución de la inestabilidad laboral (entradas, salidas e intermitencias) en los últimos veinte años.\n\nEstudiar la inadecuación educativa (horizontal y vertical) de la población ocupada en México.\n\nIdentificar la evolución de las condiciones de las principales ocupaciones y su heterogeneidad.\n\nExaminar el papel del trabajo no remunerado en la inserción laboral femenina.\n\nReconocer cómo han evolucionado las desigualdades entre grupos poblacionales en términos de condiciones laborales"
+    "text": "Objetivo general\nDeterminar los cambios en las trayectorias del mercado laboral mexicano durante el periodo 2005–2025, considerando las desventajas de grupos poblacionales específicos —mujeres, jóvenes, personas trabajadoras rurales y personas adultas mayores— y analizando cuatro dimensiones clave: inestabilidad, desajuste educativo, trabajo no remunerado y heterogeneidad de ocupaciones."
   },
   {
     "objectID": "about.html#metodología",
     "href": "about.html#metodología",
     "title": "Sobre el proyecto",
     "section": "Metodología",
-    "text": "Metodología\nEl proyecto utiliza la Encuesta Nacional de Ocupación y Empleo (ENOE), que cumple veinte años de aplicación continua. Mediante el análisis de secuencias, se estudian las trayectorias laborales como procesos completos, complementadas con modelos de regresión para identificar cambios estructurales en distintos periodos (crisis de 2008, pandemia de 2020, reformas laborales)"
+    "text": "Metodología\nEl proyecto utiliza la Encuesta Nacional de Ocupación y Empleo (ENOE). Mediante el análisis de secuencias, se estudian las trayectorias laborales como procesos completos, complementadas con modelos de regresión para identificar cambios estructurales en distintos periodos, como la crisis de 2008, la pandemia de 2020 y las reformas laborales."
   },
   {
     "objectID": "about.html#productos-esperados",
     "href": "about.html#productos-esperados",
     "title": "Sobre el proyecto",
     "section": "Productos esperados",
-    "text": "Productos esperados\n\nUn libro colectivo: Retos de la inserción laboral en México en las últimas dos décadas.\n\nArtículos en revistas arbitradas.\n\nUn seminario permanente y un curso de actualización sobre el uso de la ENOE.\n\nUna shiny-app interactiva para consultar los 76 paneles armonizados de la ENOE.\n\nUn paquete en R para procesar los 76 paneles armonizados de la ENOE.\nEste sitio web, como espacio de difusión de resultados y recursos"
+    "text": "Productos esperados\n\nUn libro colectivo: Retos de la inserción laboral en México en las últimas dos décadas.\n\nArtículos en revistas arbitradas.\n\nUn seminario permanente y un curso de actualización sobre el uso de la ENOE.\n\nUna aplicación Shiny para consultar y descargar 80 paneles longitudinales armonizados de la ENOE.\n\nEl paquete de R renoe, para procesar y armonizar los microdatos de la ENOE.\n\nEste sitio web, como espacio de difusión de resultados y recursos."
   },
   {
     "objectID": "about.html#equipo",
@@ -95,6 +95,62 @@
     "href": "about.html#diseño",
     "title": "Sobre el proyecto",
     "section": "Diseño",
-    "text": "Diseño\nLogo y dseño de marca por Poly Espitia"
+    "text": "Diseño\nLogo y diseño de marca por Poly Espitia."
+  },
+  {
+    "objectID": "about.html#retos-de-la-inserción-laboral-en-méxico",
+    "href": "about.html#retos-de-la-inserción-laboral-en-méxico",
+    "title": "Sobre el proyecto",
+    "section": "",
+    "text": "El proyecto PAPIIT IN305925 tiene como propósito estudiar cómo han cambiado las trayectorias laborales en México durante el periodo 2005–2025. Nos enfocamos en identificar los principales retos de la inserción laboral en un mercado caracterizado por la heterogeneidad y la desigualdad."
+  },
+  {
+    "objectID": "about.html#objetivos-específicos",
+    "href": "about.html#objetivos-específicos",
+    "title": "Sobre el proyecto",
+    "section": "Objetivos específicos",
+    "text": "Objetivos específicos\n\nAnalizar la evolución de la inestabilidad laboral (entradas, salidas e intermitencias) en los últimos veinte años.\n\nEstudiar la inadecuación educativa (horizontal y vertical) de la población ocupada en México.\n\nIdentificar la evolución de las condiciones de las principales ocupaciones y su heterogeneidad.\n\nExaminar el papel del trabajo no remunerado en la inserción laboral femenina.\n\nReconocer cómo han evolucionado las desigualdades entre grupos poblacionales en términos de condiciones laborales."
+  },
+  {
+    "objectID": "Participantes.html#coordinación",
+    "href": "Participantes.html#coordinación",
+    "title": "Participantes",
+    "section": "",
+    "text": "Ana Ruth Escoto Castillo — Facultad de Ciencias Políticas y Sociales, UNAM"
+  },
+  {
+    "objectID": "avances.html",
+    "href": "avances.html",
+    "title": "Avances de investigación",
+    "section": "",
+    "text": "Esta sección reúne publicaciones, desarrollos de datos y herramientas producidos en el marco del proyecto PAPIIT IN305925: Retos de la inserción laboral en México."
+  },
+  {
+    "objectID": "avances.html#publicaciones",
+    "href": "avances.html#publicaciones",
+    "title": "Avances de investigación",
+    "section": "Publicaciones",
+    "text": "Publicaciones\n\nTrayectorias iniciales de trabajo en jóvenes profesionistas en México\nAna Escoto Castillo (2026). “Trayectorias iniciales de trabajo en jóvenes profesionistas en México”. Revista Mexicana de Investigación Educativa, 31(109). Publicado el 6 de abril de 2026.\nEl artículo reconstruye trayectorias laborales de cinco trimestres consecutivos para jóvenes de 15 a 29 años que no tenían experiencia laboral en su primera entrevista. Utiliza los paneles de la Encuesta Nacional de Ocupación y Empleo entre 2005 y 2024 y analiza diferencias por género, escolaridad, región y contexto familiar.\nConsultar el artículo\nDescargar el PDF"
+  },
+  {
+    "objectID": "avances.html#infraestructura-de-datos",
+    "href": "avances.html#infraestructura-de-datos",
+    "title": "Avances de investigación",
+    "section": "Infraestructura de datos",
+    "text": "Infraestructura de datos\n\nProcesamiento armonizado de 83 trimestres de la ENOE, desde 2005 hasta 2025.\nConstrucción de 80 paneles longitudinales de hasta cinco ondas.\nClasificación reproducible de trayectorias de inserción, entrada y salida de la ocupación, contratación temporal, ajuste educativo, condiciones laborales y situaciones de estudio y trabajo.\nDistribución de paneles en formatos Parquet, RDS y Stata."
+  },
+  {
+    "objectID": "avances.html#herramientas",
+    "href": "avances.html#herramientas",
+    "title": "Avances de investigación",
+    "section": "Herramientas",
+    "text": "Herramientas\n\nrenoe: paquete de R para descargar, procesar y armonizar la ENOE.\nConsulta y descarga de paneles: aplicación para explorar los productos longitudinales del proyecto."
+  },
+  {
+    "objectID": "avances.html#actualización",
+    "href": "avances.html#actualización",
+    "title": "Avances de investigación",
+    "section": "Actualización",
+    "text": "Actualización\nÚltima actualización: agosto de 2026."
   }
 ]

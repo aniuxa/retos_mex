@@ -3,7 +3,7 @@ project:
   output-dir: "docs"
   
 website:
-  title: "RETOS"
+  title: "Retos"
   navbar:
     background: primary
     left:
@@ -11,6 +11,8 @@ website:
         text: Sobre el proyecto
       - href: Participantes.qmd
         text: Participantes
+      - href: avances.qmd
+        text: Avances de investigación
       - href: https://aniuxa.github.io/renoe/
         text: Paquete renoe    
       - href: https://aniuxa.shinyapps.io/shiny_enoe/
@@ -24,8 +26,6 @@ format:
   html:
     theme:
       - cosmo
-      - styles/theme.scss   # variables de marca
     css: styles/site.css    # reglas finas (tipos, navbar, etc.)
     toc: true
     toc-title: "En esta página"
-
