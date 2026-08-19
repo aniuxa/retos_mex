@@ -13,6 +13,7 @@ page-layout: article
 ## Académicas y académicos UNAM
 
 -   **Enrique Mauricio Padrón Innamorato** — Instituto de Investigaciones Jurídicas, UNAM\
+-   **Gerardo Damián Hernández** — Centro Regional de Investigaciones Multidisciplinarias, UNAM\
 -   **Isalia Nava Bolaños** — Instituto de Investigaciones Económicas, UNAM\
 -   **Mercedes Pedrero y Nieto** — Centro Regional de Investigaciones Multidisciplinarias, UNAM
 
@@ -24,11 +25,12 @@ page-layout: article
 -   **María Edith Pacheco Gómez Muñoz** — El Colegio de México\
 -   **María Viridiana Sosa Márquez** — Universidad Autónoma del Estado de México\
 -   **Nelson Florez Vaquiro** — Facultad Latinoamericana de Ciencias Sociales (FLACSO)\
+-   **Rosario Aparicio** — El Colegio de México\
 -   **Rosa Patricia Román Reyes** — Universidad Autónoma del Estado de México
 
 ------------------------------------------------------------------------
 
-## Posdoctorales
+## Investigadores posdoctorales
 
 -   **Alfonso Ruiz Núñez** — Instituto de Investigaciones Sociales, UNAM\
 -   **Jorge Rubén Afarian** — Instituto de Investigaciones Jurídicas, UNAM\

@@ -33,11 +33,23 @@
 
 /* 3) Aplicación tipográfica */
 :root{
+  --retos-blue: #245f94;
+  --retos-blue-deep: #17466f;
+  --retos-orange: #cc6900;
+  --retos-orange-bright: #ff8300;
+  --retos-ink: #222222;
+  --retos-soft: #f4f7fa;
+  --retos-line: #d9e2ea;
   --brand-title: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --brand-text:  "Geomanist", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
-body { font-family: var(--brand-text); font-weight: 400; }
+body {
+  color: var(--retos-ink);
+  background: #ffffff;
+  font-family: var(--brand-text);
+  font-weight: 400;
+}
 h1, h2, h3, .navbar-brand, .navbar-title { 
   font-family: var(--brand-title); 
   font-weight: 700; 
@@ -46,13 +58,13 @@ h1, h2, h3, .navbar-brand, .navbar-title {
 
 /* =================== COLORES DE TÍTULOS =================== */
 h1, h2 {
-  color: #cc6900; /* naranja más oscuro */
+  color: var(--retos-orange);
 }
 h3, h4 {
-  color: #245f94; /* azul más oscuro */
+  color: var(--retos-blue);
 }
 h5, h6 {
-  color: #333333; /* gris profundo para subtítulos menores */
+  color: var(--retos-ink);
 }
 /* =================== HERO (index) =================== */
 /* Portada con capas: logo, engranes, velo sutil y foto de fondo */
@@ -85,9 +97,41 @@ h5, h6 {
 }
 
 /* =================== BOTONES Y DETALLES =================== */
-a { text-underline-offset: 2px; }
-.btn-cta { background: #FF8300; border: 0; color: #1b1b1b; }
-.btn-cta:hover { filter: brightness(.96); }
+a {
+  color: var(--retos-blue);
+  text-underline-offset: 2px;
+}
+a:hover,
+a:focus {
+  color: var(--retos-blue-deep);
+}
+
+.btn-cta,
+.btn-primary {
+  background: var(--retos-orange-bright);
+  border-color: var(--retos-orange-bright);
+  color: #1b1b1b;
+  border-radius: 7px;
+  font-weight: 700;
+}
+.btn-cta:hover,
+.btn-cta:focus,
+.btn-primary:hover,
+.btn-primary:focus {
+  background: var(--retos-orange);
+  border-color: var(--retos-orange);
+  color: #ffffff;
+}
+
+.form-control:focus {
+  border-color: var(--retos-blue);
+  box-shadow: 0 0 0 2px rgba(36,95,148,.16);
+}
+
+table thead th {
+  color: #ffffff;
+  background: var(--retos-blue);
+}
 
 /* =================== RESPONSIVO =================== */
 @media (max-width: 768px) {
@@ -101,11 +145,17 @@ a { text-underline-offset: 2px; }
 
 /* Footer institucional */
 .quarto-page-footer {
-  background: #f6f7f8;      /* gris muy suave */
+  color: #52606d;
+  background: var(--retos-soft);
+  border-top: 1px solid var(--retos-line);
   font-size: 0.9rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
+}
+.quarto-page-footer a {
+  color: var(--retos-blue);
+  font-weight: 700;
 }
 .quarto-page-footer img {
   display: block;
