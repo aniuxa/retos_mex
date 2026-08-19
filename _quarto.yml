@@ -1,10 +1,13 @@
 project:
   type: website
   output-dir: "docs"
+  pre-render: Rscript 00_limpiar_desktop_ini.R
   
 website:
   title: "Retos"
   navbar:
+    logo: img/engranes-blancos.png
+    logo-alt: "Engranes del proyecto Retos"
     background: primary
     left:
       - href: about.qmd

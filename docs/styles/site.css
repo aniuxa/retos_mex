@@ -66,6 +66,37 @@ h3, h4 {
 h5, h6 {
   color: var(--retos-ink);
 }
+
+/* =================== NAVEGACIÓN =================== */
+/* Sobrescribe el `primary` claro de Cosmo con el azul institucional. */
+.navbar,
+.navbar.navbar-expand-lg {
+  background-color: var(--retos-blue) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-title,
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active,
+.navbar .show > .nav-link {
+  color: #ffffff !important;
+  background-color: var(--retos-blue-deep);
+}
+
+.navbar-toggler {
+  border-color: rgba(255,255,255,.55);
+}
+
+.navbar-logo {
+  max-height: 38px;
+  width: auto;
+  margin-right: .4rem;
+}
 /* =================== HERO (index) =================== */
 /* Portada con capas: logo, engranes, velo sutil y foto de fondo */
 .quarto-title-block .quarto-title-banner {
